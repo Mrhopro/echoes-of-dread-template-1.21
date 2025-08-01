@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "echoes-of-dread",
+	"version": "${version}",
+	"name": "Echoes of Dread",
+	"description": "Atmospheric horror mod combining ARG, fear mechanics and a custom dimension.",
+	"authors": [
+		"Mrhopro"
+	],
+	"contact": {
+		"homepage": "https://Mrhopro.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/echoes-of-dread/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.mrhopro.EchoesOfDread"
+		],
+		"fabric-datagen": [
+			"com.mrhopro.EchoesOfDreadDataGenerator"
+		],
+		"client": [
+			"com.mrhopro.EchoesOfDreadClient"
+		]
+	},
+	"mixins": [
+		"echoes-of-dread.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
