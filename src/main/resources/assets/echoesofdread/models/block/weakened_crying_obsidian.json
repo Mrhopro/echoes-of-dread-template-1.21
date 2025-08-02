@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "echoesofdread:block/weakened_crying_obsidian"
+  }
+}

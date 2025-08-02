@@ -1,0 +1,13 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "echoesofdread:block/weakened_grass_block",
+    "tints": [
+      {
+        "type": "echoesofdread:weakened_grass",
+        "downfall": 1.0,
+        "temperature": 0
+      }
+    ]
+  }
+}
