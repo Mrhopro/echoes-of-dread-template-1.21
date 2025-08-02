@@ -18,6 +18,8 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.echoesofdread.echoes_of_dread_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.PORTAL_LIGHTER);
+                        entries.add(ModItems.WEAKENED_DIAMOND);
+                        entries.add(ModItems.GLITCHED_ORE);
                     })
                     .build());
 
@@ -29,6 +31,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WEAKENED_DIRT);
                         entries.add(ModBlocks.WEAKENED_GRASS);
                         entries.add(ModBlocks.WEAKENED_CRYING_OBSIDIAN);
+                        entries.add(ModBlocks.DESTROYED_ORE);
+                        entries.add(ModBlocks.WEAKENED_DIAMOND_ORE);
+                        entries.add(ModBlocks.WEAKENED_DEEPSLATE_DIAMOND_ORE);
                     })
                     .build());
 

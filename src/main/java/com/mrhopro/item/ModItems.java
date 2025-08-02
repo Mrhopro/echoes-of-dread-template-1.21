@@ -10,6 +10,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item PORTAL_LIGHTER = registerItem( "portal_lighter", new Item(new Item.Settings()));
+    public static final Item WEAKENED_DIAMOND = registerItem( "weakened_diamond", new Item(new Item.Settings()));
+    public static final Item GLITCHED_ORE = registerItem( "glitched_ore", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item){
@@ -21,6 +23,8 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(PORTAL_LIGHTER);
+            fabricItemGroupEntries.add(WEAKENED_DIAMOND);
+            fabricItemGroupEntries.add(GLITCHED_ORE);
         });
     }
 }

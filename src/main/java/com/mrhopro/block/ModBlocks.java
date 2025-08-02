@@ -3,6 +3,7 @@ package com.mrhopro.block;
 import com.mrhopro.EchoesOfDread;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.Block;
@@ -20,11 +21,23 @@ public class ModBlocks {
 
     public static final Block WEAKENED_GRASS = registerBlock("weakened_grass",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).ticksRandomly().strength(0.6F)
-                    .requiresTool().sounds(BlockSoundGroup.GRASS)));
+                    .sounds(BlockSoundGroup.GRASS)));
 
     public static final Block WEAKENED_DIRT = registerBlock("weakened_dirt",
             new Block(AbstractBlock.Settings.create().strength(0.5F)
-                    .requiresTool().sounds(BlockSoundGroup.ROOTED_DIRT)));
+                    .sounds(BlockSoundGroup.ROOTED_DIRT)));
+
+    public static final Block WEAKENED_DEEPSLATE_DIAMOND_ORE = registerBlock("weakened_deepslate_diamond_ore",
+            new Block(AbstractBlock.Settings.create().strength(3.0F, 3.0F)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block WEAKENED_DIAMOND_ORE = registerBlock("weakened_diamond_ore",
+            new Block(AbstractBlock.Settings.create().strength(3.0F, 3.0F)
+                    .requiresTool()));
+
+    public static final Block DESTROYED_ORE = registerBlock("destroyed_ore",
+            new Block(AbstractBlock.Settings.create().strength(3.5F, 6.0F)
+                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
 
     private static Block registerBlock(String name, Block block) {

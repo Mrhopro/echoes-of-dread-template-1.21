@@ -1,8 +1,17 @@
 {
   "item.echoesofdread.portal_lighter": "Portal lighter",
   "block.echoesofdread.weakened_crying_obsidian": "Weakened Crying Obsidian",
+
   "block.echoesofdread.weakened_grass": "Weakened Grass",
   "block.echoesofdread.weakened_dirt": "Weakened Dirt",
+
+  "block.echoesofdread.weakened_diamond_ore": "Weakened Diamond Ore",
+  "block.echoesofdread.weakened_deepslate_diamond_ore": "Weakened Deepslate Diamond Ore",
+
+  "item.echoesofdread.weakened_diamond": "Weakened Diamond",
+  "item.echoesofdread.glitched_ore": "Glitched Ore",
+  "block.echoesofdread.destroyed_ore": "Destroyed Ore",
+
   "itemgroup.echoesofdread.echoes_of_dread_items" : "Echoes Of Dread Items",
   "itemgroup.echoesofdread.echoes_of_dread_blocks" : "Echoes Of Dread Blocks"
 }
